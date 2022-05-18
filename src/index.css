@@ -1,0 +1,28 @@
+body {
+  background-color: #0e1315;
+  color: #e5e7eb;
+}
+h1 {
+  text-align: center;
+}
+/* placing evrything in the section in the center */
+.gallery-container {
+  display: flex;
+  justify-content: center;
+}
+/*making the gallery flex and also adding wrap to make it a litle bit responsive */
+.gallary {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+/* styling the images */
+.gallary > img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
